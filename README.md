@@ -51,13 +51,33 @@
 11. Ahora finalizamos esta sección implementando el character container 
 12. con todo esto implementado realizamos la pagina de busqueda 
 13. Seguimos con la pagina de favoritos y finalizamos con cambiar las referencias en el AppNavigator
-14. Para cambiar el icon primero necesitamos crear una capeta assests->icons->icon.png
-    
+14. Para cambiar el icono primero tenemos que ir al siguiente enlace https://icon.kitchen.
+15. Una vez aquí cargas la imagen y seleccionas el fondo que prefieras, luego le das download
+
 <div align="center">
-  <img src="images/service.png" alt="Logo" width=90%>
+  <img src="images/iconkitchen.png" alt="Logo" width=90%>
 </div>
 
-15.  Una vez creada, para poderlo usar necesitamos agregar la ruta en nuestro archivo pubspec.yaml
+16. Al descomprimir el archivo te dejará 3 carpetas - android - ios -web (como esta es una aplicación para android, nos enfocaremos en ella)
+
 <div align="center">
-  <img src="images/yaml_icons.png" alt="Logo" width=90%>
+  <img src="images/carpetasicon.png" alt="Logo" width=90%>
 </div>
+
+17. Abrimos la carpeta Android->res y nos encontraremos con varias carpetas, estas son las capetas que usa android para los iconos en distintos tamaños.
+    
+<div align="center">
+  <img src="images/midmap.png" alt="Logo" width=90%>
+</div>
+
+18. En nuestro proyecto ubicamos la carpeta android->app->src->main->res, como podemos ver hay carpetas con el mismo nombre que en el archivo descargado, ahora solo queda copiar las carpetas que descargamos y reemplazarlas.
+
+<div align="center">
+  <img src="images/carpetasandroid.png" alt="Logo" width=70%>
+</div>
+
+<div align="center">
+  <img src="images/reemplazar.png" alt="Logo" width=90%>
+</div>
+
+19. Y ya tendriamos nuestra aplicación con otro icono
